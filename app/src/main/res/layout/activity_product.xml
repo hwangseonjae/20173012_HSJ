@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Product"
+        android:textColor="#ff333333"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#B8B5B5"
+        android:text="MENU"
+        android:textColor="#020202"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="401dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/bag1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="287dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/bag2" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#B8B5B5"
+        android:onClick="imageChangeBtn"
+        android:text="다음"
+        android:textColor="#090909" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B8B5B5"
+        android:onClick="OnClicktoMeg"
+        android:text="제고"
+        android:textColor="#040303" />
+
+
+</LinearLayout>
+
+
